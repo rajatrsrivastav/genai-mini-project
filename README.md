@@ -7,7 +7,6 @@ A RAG (Retrieval Augmented Generation) system that analyzes cold case evidence a
 - 📁 Source tracking with explicit citations
 - 🔍 Local vector embeddings (Xenova/all-MiniLM-L6-v2)
 - 🤖 LLM integration (Gemini/OpenAI)
-- ✅ 42 comprehensive tests
 
 ## Quick Start
 
@@ -32,23 +31,18 @@ Edit `.env` and add your key:
 GEMINI_API_KEY=your_actual_api_key_here
 ```
 
-### 3. Build & Test
+### 3. Build
 
 ```bash
 npm run build
-npm test
 ```
 
-Expected output:
-```
-✓ src/index.test.ts (33)
-Tests  42 passed (42)
-```
-
-### 4. Try It!
+### 4. Use the App
 
 ```bash
 npm run ask "What color was the car?"
+npm run ask "Who witnessed the crime?"
+npm run ask "What evidence connects the suspect to the crime scene?"
 ```
 
 ## Usage
@@ -82,7 +76,7 @@ cold-case-detective/
 ├── evidence/         # 5 case evidence text files
 ├── src/
 │   ├── index.ts     # Main RAG implementation
-│   └── index.test.ts # Test suite
+│   └── test-query.ts # Interactive query script
 └── package.json
 ```
 
@@ -97,11 +91,8 @@ cold-case-detective/
 - TypeScript
 - Xenova/all-MiniLM-L6-v2 (embeddings)
 - Gemini 2.5 Flash / OpenAI GPT-3.5 (LLM)
-- Vitest (testing)
 
 ## Troubleshooting
-
-**Tests skipped?** Make sure `.env` file exists with your API key
 
 **Module not found?** Run `npm run build`
 
