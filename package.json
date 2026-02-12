@@ -1,0 +1,33 @@
+{
+  "name": "cold-case-detective",
+  "version": "1.0.0",
+  "description": "A RAG system for analyzing cold case evidence with source citations",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "ask": "npm run build && node dist/test-query.js"
+  },
+  "keywords": [
+    "rag",
+    "vector-search",
+    "llm",
+    "evidence-analysis"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "fast-check": "^3.15.0",
+    "typescript": "^5.3.3",
+    "vitest": "^1.0.4"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "@xenova/transformers": "^2.10.0",
+    "dotenv": "^17.2.4",
+    "openai": "^4.20.0"
+  }
+}

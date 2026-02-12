@@ -1,0 +1,30 @@
+VEHICLE ANALYSIS REPORT
+Case Number: 1987-4521
+Date: March 18, 1987
+Analyst: Officer James Chen, Vehicle Crimes Unit
+
+PAINT ANALYSIS:
+The red paint chips recovered from victim's jacket were analyzed by the state crime lab. Results indicate:
+- Paint type: Automotive enamel
+- Color: Bright Red (Ford color code M1800C "Bright Red")
+- Year range: 1984-1987 Ford vehicles
+- Paint shows weathering consistent with 2-3 years of exposure
+
+VEHICLE PROFILE:
+Based on witness descriptions and paint analysis, suspect vehicle is likely:
+- Make: Ford
+- Color: Bright Red
+- Year: 1984-1987
+- Model: Possibly Mustang, Thunderbird, or Tempo
+- Distinguishing features: Dented rear bumper (driver's side), loud exhaust
+- License plate: Partial "JK" or "JX"
+
+DMV SEARCH RESULTS:
+Search of state DMV records for red Ford vehicles with license plates starting "JK" or "JX" returned 47 matches. Cross-referencing with 1984-1987 model years reduced list to 12 vehicles.
+
+FOLLOW-UP ACTIONS:
+- Detectives to interview registered owners of 12 matching vehicles
+- Check for any vehicles matching description in impound lots or repair shops
+- Review traffic camera footage from Oak Street area (if available)
+
+NOTE: The dented bumper is a key identifying feature. Recommend checking body shops for recent repair requests matching this description.
